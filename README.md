@@ -1,9 +1,6 @@
 # GenCNB
 Generating structuress of carbon nanobelts (CNBs)
 
-<img src="https://repository-images.githubusercontent.com/619128989/08bf4173-9a9c-48e2-89e0-eb4848209aeb" 
-     alt="Logo of the GenCNB program" title="GenCNB" width=360 />
-     
 This program generates structures of carbon nanobelts (CNBs), including both the standard and nonstandard CNBs. All constructed molecular structures are exported in Cartesian coordinates in \*.xyz files.
 
 
@@ -84,13 +81,11 @@ to enumerate and generation all possible isomers of the nonstandard CNBs
 (n,m,l). The corresponding path code file is generated as `XPATH_{n}_{m}_{l}_R{NR}` and, if the last argument of `gen_belts_ext()` is `true`, the folder is created as `XR{NR}-{n}_{m}_{l}` containing the xyz files for all isomers.
 
 #### Example: 
-By calling
+We want to construct all possible isomers of the nonstandard CNBs (6,2,3). Simply call 
 ```
 gen_belts_ext( 6, 2, 3, true )
 ```
-we obtain the path code file `XPATH_6_2_3_R11` and the folder `XR11-06_02_03`
-where there are four xyz files, XR11-6_2_3-1.xyz, ..., XR11-6_2_3-4.xyz. The
-output on screen is collected in the following:
+We obtain the path code file `XPATH_6_2_3_R11` and the folder `XR11-06_02_03` where there are four xyz files, XR11-6_2_3-1.xyz, ..., XR11-6_2_3-4.xyz for the four possible isomers. The output on screen is collected in the following:
 ```
 Enumerating all nonequivalent (6,2,3) nanobelts isomers ...
 n1 = 3, m1 = 5
