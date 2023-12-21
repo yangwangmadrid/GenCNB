@@ -35,7 +35,7 @@ which first generates a path file named `PATH_{n}_{m}_R{NR}` and then a folder n
 - Stoichiometry, Isomer No.: [path code] Hueckel total energy, Hueckel HOMO-LUMO gap
 - Atomic numbers/symbols + Cartesian coordinates
 
-*NOTE: If the last argument of `gen_belts()1 is `false`, then only path code file is generated without producing any Cartesian coordinates.
+*NOTE: If the last argument of `gen_belts()` is `false`, then only the path code file is generated without producing any Cartesian coordinates.
 
 
 #### Example: 
@@ -47,7 +47,7 @@ gen_belts( 7, 3, true )
 we enumerate and obtain all isomers of the standard [10]CNBs (7,3). The onscreen
 output is as follows:
 ```
-Enumerating all nonequivalent (7,3) nanobelts isomers ...
+Enumerating all nonequivalent (7,3) nanobelt isomers ...
 File PATH_7_3_R10 written
 Generating 3D coordinates in xyz files ...
 Folder R10-07_03 created
@@ -77,7 +77,7 @@ We call the function:
 ```
 gen_belts_ext( n, m, l, true )
 ```
-to enumerate and generation all possible isomers of the nonstandard CNBs
+to enumerate and generate all possible isomers of the nonstandard CNBs
 (n,m,l). The corresponding path code file is generated as `XPATH_{n}_{m}_{l}_R{NR}` and, if the last argument of `gen_belts_ext()` is `true`, the folder is created as `XR{NR}-{n}_{m}_{l}` containing the xyz files for all isomers.
 
 #### Example: 
@@ -87,7 +87,7 @@ gen_belts_ext( 6, 2, 3, true )
 ```
 We obtain the path code file `XPATH_6_2_3_R11` and the folder `XR11-06_02_03` where there are four xyz files, XR11-6_2_3-1.xyz, ..., XR11-6_2_3-4.xyz for the four possible isomers. The output on screen is collected in the following:
 ```
-Enumerating all nonequivalent (6,2,3) nanobelts isomers ...
+Enumerating all nonequivalent (6,2,3) nanobelt isomers ...
 n1 = 3, m1 = 5
 File XPATH_6_2_3_R11 written
 Generating 3D coordinates in xyz files ...
