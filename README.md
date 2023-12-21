@@ -37,9 +37,11 @@ CNBs (n,m), simply call the function:
 gen_belts( n, m )
 ```
 which generates a folder named R{NR}-{n}\_{m} that stores the xyz files. Each xyz file contains the following information of the corresponding CNB isomer:
+
 Number of atoms
-Stoichiometry, Isomer No.: [path code] Hueckel total energy, Hueckel HOMO-LUMO
-gap
+
+Stoichiometry, Isomer No.: [path code] Hueckel total energy, Hueckel HOMO-LUMO gap
+
 Atomic numbers/symbols + Cartesian coordinates
 
 
