@@ -4,6 +4,14 @@ Generating structuress of carbon nanobelts (CNBs)
 This program generates structures of carbon nanobelts (CNBs), including both the standard and nonstandard CNBs. All constructed molecular structures are exported in Cartesian coordinates in \*.xyz files.
 
 
+## How to cite
+ 
+If you have used the GenCNB program in your research papers or presentations,
+it is obligatory to cite the following paper:
+ 
+1. Yang Wang, Yi Zhou, Ke Du. Enumeration, Nomenclature and Stability Rules of Carbon Nanobelts. *ChemRxiv* 2023, [DOI:10.26434/chemrxiv-2023-85ww5](https://doi.org/10.26434/chemrxiv-2023-85ww5)
+
+
 ## Copyright and License
 The Author of the GenCNB software is Yang Wang 
 (yangwang@yzu.edu.cn; [orcid.org/0000-0003-2540-2199](https://orcid.org/0000-0003-2540-2199)). The GenCNB program is 
